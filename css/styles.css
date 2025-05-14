@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
@@ -14,7 +15,7 @@ ul {
 
 .logo {
   color: #4d5ae5;
-  font-family: 'Raleway', sang-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -23,7 +24,7 @@ ul {
 }
 
 .header-logo-accent {
-  color: #434455;
+  color: #2e2f42;
 }
 
 .header-navigation-link {
@@ -31,12 +32,16 @@ ul {
   font-weight: 500;
 }
 
-.header-navigation-link:hover {
+.header-navigation-link:hover,
+.header-navigation-link:focus {
   color: #404bbf;
 }
 
-.header-contacts-link {
+.header-contacts {
   font-style: normal;
+}
+
+.header-contacts-link {
   color: #434455;
 }
 
@@ -55,6 +60,7 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   line-height: 60px;
+  text-align: center;
 }
 
 .hero-button {
@@ -66,7 +72,8 @@ ul {
   cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
   color: #fff;
 }
@@ -75,6 +82,10 @@ ul {
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .advantages-subtitle,
@@ -84,10 +95,11 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.team-section {
-  background-color: #e7e9fc;
+.team-list {
+  background-color: #fff;
 }
 
 .footer {
