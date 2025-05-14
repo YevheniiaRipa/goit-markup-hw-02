@@ -57,8 +57,8 @@ ul {
 .hero-title {
   color: #fff;
   font-size: 56px;
-  line-height: 1.07;
   letter-spacing: 0.02em;
+  line-height: 1.07;
   line-height: 60px;
   text-align: center;
 }
@@ -98,7 +98,11 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.team-list {
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-item {
   background-color: #fff;
 }
 
@@ -107,10 +111,10 @@ ul {
 }
 
 .footer-logo-accent {
-  color: #e7e9fc;
+  color: #f4f4fd;
 }
 
 .footer-text {
-  color: #e7e9fc;
+  color: #f4f4fd;
   line-height: 1.5;
 }
